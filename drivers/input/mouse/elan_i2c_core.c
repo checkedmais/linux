@@ -90,6 +90,7 @@ struct elan_tp_data {
 	bool			baseline_ready;
 	u8			clickpad;
 	bool			middle_button;
+    bool        numberpad;
 };
 
 static int elan_get_fwinfo(u16 ic_type, u8 iap_version, u16 *validpage_count,
